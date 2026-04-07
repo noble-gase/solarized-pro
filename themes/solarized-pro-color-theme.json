@@ -12,7 +12,8 @@
 		"input.foreground": "#839496",
 		"input.placeholderForeground": "#93a1a1aa",
 		"input.border": "#00212b",
-		"inputOption.activeBorder": "#2AA19899",
+		"inputOption.activeBorder": "#d33682",
+		"inputOption.activeBackground": "#d33682",
 		"inputValidation.infoBorder": "#363b5f",
 		"inputValidation.infoBackground": "#052730",
 		"inputValidation.warningBackground": "#5d5938",
@@ -259,6 +260,7 @@
 		{
 			"name": "Color: #d33682",
 			"scope": [
+				"keyword",
 				"keyword.control",
 				"variable.language",
 				"entity.name.tag.css",
@@ -287,7 +289,6 @@
 				"markup.heading",
 				"markup.heading.setext",
 				"support.function.perl",
-				"variable.other.property",
 				"punctuation.section.brackets"
 			],
 			"settings": {
@@ -297,10 +298,11 @@
 		{
 			"name": "Color: #859900",
 			"scope": [
-				"keyword",
+				"keyword.operator",
 				"keyword.control.import",
 				"keyword.control.import.from",
 				"keyword.other.special-method",
+				"variable.other.property",
 				"markup.inserted",
 				"markup.inserted.git_gutter",
 				"markup.underline.link.markdown",
