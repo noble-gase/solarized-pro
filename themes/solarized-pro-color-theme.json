@@ -177,9 +177,6 @@
 				"variable.legacy.builtin.python",
 				"variable.other",
 				"variable.other.property",
-				"variable.other.readwrite.js",
-				"variable.other.object.js",
-				"variable.other.constant.js",
 				"entity.name.namespace",
 				"entity.other.attribute-name",
 				"meta.embedded",
@@ -187,7 +184,15 @@
 				"source.groovy.embedded",
 				"string meta.image.inline.markdown",
 				"punctuation.definition.string",
-				"support.type.property-name.css"
+				"support.type.property-name.css",
+				// js
+				"variable.other.readwrite.js",
+				"variable.other.object.js",
+				"variable.other.constant.js",
+				// rust
+				"keyword.operator.key-value.rust",
+				"keyword.operator.access.dot.rust",
+				"keyword.operator.namespace.rust",
 			],
 			"settings": {
 				"foreground": "#839496"
@@ -226,18 +231,27 @@
 				"entity.name.filename.find-in-files",
 				"markup.changed",
 				"markup.inline.raw",
-				"markup.underline.link.markdown",
-				"meta.link.reference constant.other.reference.link.markdown",
-				"meta.preprocessor.c.include string.quoted.other.lt-gt.include.c",
-				"meta.preprocessor.c.include punctuation.definition.string.begin.c",
-				"meta.preprocessor.c.include punctuation.definition.string.end.c",
+				// tex
 				"text.tex.latex constant.other.math.tex",
 				"text.tex.latex constant.other.general.math.tex",
 				"constant.other.general.math.tex",
 				"constant.other.general.math.tex",
 				"constant.character.math.tex",
 				"support.function.general.tex",
-				"other.add"
+				// css
+				"constant.other.color.rgb-value.hex.css",
+				"support.constant.color.w3c-standard-color-name.css",
+				// markdown
+				"markup.underline.link.markdown",
+				"meta.link.reference constant.other.reference.link.markdown",
+				// rust
+				"entity.name.type.lifetime.rust",
+				"punctuation.definition.lifetime.rust",
+				// c
+				"string.quoted.other.lt-gt.include.c",
+				"meta.preprocessor.c.include",
+				"punctuation.definition.string.begin.c",
+				"punctuation.definition.string.end.c"
 			],
 			"settings": {
 				"foreground": "#2aa198"
@@ -250,8 +264,9 @@
 				"constant.character",
 				"constant.language",
 				"constant.other",
-				"constant.other.reference.link.markdown",
 				"entity.other.inherited-class",
+				// markdown
+				"constant.other.reference.link.markdown",
 				"punctuation.definition.list.begin.markdown"
 			],
 			"settings": {
@@ -269,7 +284,9 @@
 				"markup.bold",
 				"markup.italic",
 				"source.less keyword.control.html.elements",
-				"source.sass keyword.control.untitled"
+				"source.sass keyword.control.untitled",
+				"meta.shebang.shell",
+				"punctuation.definition.comment.shebang.shell",
 			],
 			"settings": {
 				"foreground": "#d33682"
@@ -302,16 +319,13 @@
 				"keyword.operator",
 				"keyword.control.import",
 				"keyword.control.import.from",
+				"keyword.other.unit",
 				"keyword.other.special-method",
 				"markup.inserted",
 				"markup.inserted.git_gutter",
-				"markup.underline.link.markdown",
-				"markup.underline.link.image.markdown",
 				"storage",
+				"storage.type",
 				"storage.modifier",
-				"storage.type.class.python",
-				"storage.type.function.python",
-				"storage.modifier.global.python",
 				"storage.modifier.c++",
 				"string.other.math.tex",
 				"support",
@@ -319,8 +333,40 @@
 				"support.type",
 				"support.class",
 				"support.function.be.latex",
+				"entity.name.command.shell",
 				"punctuation.definition.variable",
-				"punctuation.definition.quote.begin.markdown"
+				// python
+				"storage.type.class.python",
+				"storage.type.function.python",
+				"storage.modifier.global.python",
+				// markdown
+				"markup.underline.link.markdown",
+				"markup.underline.link.image.markdown",
+				"punctuation.definition.quote.begin.markdown",
+				// go
+				"keyword.map.go",
+				"keyword.var.go",
+				"keyword.type.go",
+				"keyword.const.go",
+				"keyword.struct.go",
+				"keyword.channel.go",
+				"keyword.package.go",
+				"keyword.function.go",
+				"keyword.interface.go",
+				"keyword.control.import.go",
+				"entity.name.type.any.go",
+				"constant.other.placeholder.go",
+				// rust
+				"keyword.other.rust",
+				"meta.attribute.rust",
+				"meta.macro.rust",
+				"meta.interpolation.rust",
+				"support.type.primitive.rust",
+				"entity.name.type.option.rust",
+				"entity.name.type.result.rust",
+				"entity.name.type.primitive.rust",
+				"entity.name.function.macro.rust",
+				"entity.name.function.macro.rules.rust"
 			],
 			"settings": {
 				"foreground": "#859900"
@@ -383,10 +429,11 @@
 				"punctuation.definition.parameters",
 				"punctuation.section.group",
 				"meta.selector.css",
-				"text.html.basic meta.tag.other.html",
-				"text.html.basic meta.tag.any.html",
+				// html
 				"text.html.basic meta.tag.block.any",
 				"text.html.basic meta.tag.inline.any",
+				"text.html.basic meta.tag.other.html",
+				"text.html.basic meta.tag.any.html",
 				"text.html.basic meta.tag.structure.any.html",
 				"text.html.basic source.js.embedded.html",
 				"punctuation.separator.key-value.html"
