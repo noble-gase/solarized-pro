@@ -184,6 +184,7 @@
 				"source.groovy.embedded",
 				"string meta.image.inline.markdown",
 				"punctuation.definition.string",
+				"support.class.php",
 				"support.type.property-name.css",
 				// js
 				"variable.other.readwrite.js",
@@ -406,10 +407,15 @@
 				"text.html.basic entity.other.attribute-name.html",
 				"support.constant.color",
 				"support.function.be.latex",
+				"support.function.magic.php",
 				"support.function.builtin.zig",
-				"support.type.exception.python",
 				"punctuation.definition.heading.markdown",
-				"invalid.deprecated.color.w3c-non-standard-color-name.scss"
+				"invalid.deprecated.color.w3c-non-standard-color-name.scss",
+				// python
+				"support.type.exception.python",
+				"support.variable.magic.python",
+				"support.function.magic.python",
+				"support.function.builtin.python"
 			],
 			"settings": {
 				"foreground": "#b58900"
