@@ -267,7 +267,10 @@
 				"entity.other.inherited-class",
 				// markdown
 				"constant.other.reference.link.markdown",
-				"punctuation.definition.list.begin.markdown"
+				"punctuation.definition.list.begin.markdown",
+				// zig
+				"keyword.constant.bool.zig",
+				"keyword.constant.default.zig"
 			],
 			"settings": {
 				"foreground": "#6c71c4"
@@ -278,6 +281,7 @@
 			"scope": [
 				"keyword",
 				"keyword.control",
+				"keyword.other.protobuf",
 				"variable.language",
 				"entity.name.tag.css",
 				"entity.name.tag.scss",
@@ -366,7 +370,17 @@
 				"entity.name.type.result.rust",
 				"entity.name.type.primitive.rust",
 				"entity.name.function.macro.rust",
-				"entity.name.function.macro.rules.rust"
+				"entity.name.function.macro.rules.rust",
+				// protobuf
+				"entity.name.type.protobuf",
+				"keyword.other.directive.protobuf",
+				// zig
+				"keyword.storage.zig",
+				"keyword.structure.zig",
+				"keyword.statement.zig",
+				"keyword.default.zig",
+				"keyword.type.zig",
+				"keyword.type.integer.zig"
 			],
 			"settings": {
 				"foreground": "#859900"
@@ -378,6 +392,7 @@
 				"variable.function",
 				"entity.name.class",
 				"entity.name.type",
+				"entity.name.type.zig",
 				"entity.name.scope-resolution",
 				"entity.other.attribute-name.id",
 				"entity.other.attribute-name.class",
@@ -391,6 +406,7 @@
 				"text.html.basic entity.other.attribute-name.html",
 				"support.constant.color",
 				"support.function.be.latex",
+				"support.function.builtin.zig",
 				"support.type.exception.python",
 				"punctuation.definition.heading.markdown",
 				"invalid.deprecated.color.w3c-non-standard-color-name.scss"
