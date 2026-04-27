@@ -72,7 +72,7 @@
 		// "editorSuggestWidget.highlightForeground": "",
 		// "editorSuggestWidget.selectedBackground": "",
 		// Editor: Peek View
-		"peekView.border": "#2aa198AB",
+		"peekView.border": "#2aa198ab",
 		"peekViewTitle.background": "#002b36",
 		"peekViewResult.background": "#002b36",
 		"peekViewEditor.background": "#00212b",
@@ -135,8 +135,8 @@
 		// "notifications.buttonBackground": "#dc322f",
 		// "notifications.buttonForeground": "#eee8d5",
 		// Workbench: Quick Open
-		"pickerGroup.foreground": "#2AA19899",
-		"pickerGroup.border": "#2AA19899",
+		"pickerGroup.foreground": "#2aa19899",
+		"pickerGroup.border": "#2aa19899",
 		// Workbench: Git Decoration Colors
 		"gitDecoration.modifiedResourceForeground": "#859900",
 		"gitDecoration.deletedResourceForeground": "#dc322f",
@@ -232,6 +232,8 @@
 				"entity.name.filename.find-in-files",
 				"markup.changed",
 				"markup.inline.raw",
+				"punctuation.section.embedded.begin",
+				"punctuation.section.embedded.end",
 				// tex
 				"text.tex.latex constant.other.math.tex",
 				"text.tex.latex constant.other.general.math.tex",
@@ -472,8 +474,6 @@
 				"other.remove",
 				"markup.deleted",
 				"markup.deleted.git_gutter",
-				"punctuation.section.embedded.begin",
-				"punctuation.section.embedded.end",
 				"punctuation.separator.continuation",
 				"punctuation.section.group.tex",
 				"punctuation.definition.arguments.begin.latex",
