@@ -351,6 +351,7 @@
 				"markup.underline.link.image.markdown",
 				"punctuation.definition.quote.begin.markdown",
 				// go
+				"keyword.go.mod",
 				"keyword.map.go",
 				"keyword.var.go",
 				"keyword.type.go",
