@@ -342,6 +342,10 @@
 				"support.function.be.latex",
 				"entity.name.command.shell",
 				"punctuation.definition.variable",
+				// js
+				"keyword.control.from.js",
+				"keyword.control.export.js",
+				"keyword.control.default.js",
 				// python
 				"storage.type.class.python",
 				"storage.type.function.python",
@@ -414,6 +418,17 @@
 				"support.function.builtin.zig",
 				"punctuation.definition.heading.markdown",
 				"invalid.deprecated.color.w3c-non-standard-color-name.scss",
+				// js
+				"keyword.operator.new.js",
+				"keyword.operator.delete.js",
+				"keyword.operator.void.js",
+				"keyword.operator.in.js",
+				"keyword.operator.of.js",
+				"keyword.operator.instanceof.js",
+				"keyword.operator.expression.typeof.js",
+				"keyword.operator.expression.void.js",
+				"keyword.operator.expression.delete.js",
+				"keyword.operator.relational.js",
 				// python
 				"support.type.exception.python",
 				"support.variable.magic.python",
