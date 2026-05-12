@@ -194,6 +194,11 @@
 				"keyword.operator.key-value.rust",
 				"keyword.operator.access.dot.rust",
 				"keyword.operator.namespace.rust",
+				// ini
+				"keyword.other.definition.ini",
+				// toml
+				"source.toml",
+				"support.type.property-name.toml"
 			],
 			"settings": {
 				"foreground": "#839496"
@@ -314,7 +319,12 @@
 				"markup.heading",
 				"markup.heading.setext",
 				"support.function.perl",
-				"punctuation.section.brackets"
+				"punctuation.section.brackets",
+				// ini
+				"entity.name.section.group-title.ini",
+				// toml
+				"support.type.property-name.table.toml",
+				"meta.table.toml",
 			],
 			"settings": {
 				"foreground": "#268bd2"
@@ -388,7 +398,12 @@
 				"keyword.statement.zig",
 				"keyword.default.zig",
 				"keyword.type.zig",
-				"keyword.type.integer.zig"
+				"keyword.type.integer.zig",
+				// ini
+				"source.ini",
+				// toml
+				"support.type.property-name.array.toml",
+				"meta.array.table.toml"
 			],
 			"settings": {
 				"foreground": "#859900"
