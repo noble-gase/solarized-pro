@@ -433,6 +433,11 @@
 				"support.function.builtin.zig",
 				"punctuation.definition.heading.markdown",
 				"invalid.deprecated.color.w3c-non-standard-color-name.scss",
+				// c
+				"keyword.control.directive.define.c",
+				"keyword.control.directive.include.c",
+				"support.type.posix-reserved.c",
+				"meta.preprocessor.macro.c",
 				// js
 				"keyword.operator.new.js",
 				"keyword.operator.delete.js",
@@ -523,9 +528,6 @@
 		{
 			"name": "Style: Bold",
 			"scope": [
-				"constant.character",
-				"constant.other",
-				"variable.language",
 				"markup.bold",
 				"markup.heading",
 				"markup.heading.setext"
