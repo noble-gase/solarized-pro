@@ -22,12 +22,12 @@
 	],
 	"icon": "icon.png",
 	"bugs": {
-		"url": "https://github.com/noble-gase/ng/issues"
+		"url": "https://github.com/noble-gase/solarized-pro/issues"
 	},
-	"homepage": "https://github.com/noble-gase/ng",
+	"homepage": "https://github.com/noble-gase/solarized-pro",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/noble-gase/ng"
+		"url": "https://github.com/noble-gase/solarized-pro"
 	},
 	"contributes": {
 		"themes": [
