@@ -12,7 +12,13 @@ A dark solarized theme for VSCode
 
 ## Screenshots
 
-![Preview](https://raw.githubusercontent.com/noble-gase/ng/master/screenshots/preview.png)
+#### vscode
+
+![vscode](https://raw.githubusercontent.com/noble-gase/solarized-pro/master/screenshots/vscode.png)
+
+#### zed
+
+![zed](https://raw.githubusercontent.com/noble-gase/solarized-pro/master/screenshots/zed.png)
 
 ## Reference
 

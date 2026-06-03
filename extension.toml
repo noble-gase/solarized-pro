@@ -1,0 +1,7 @@
+id = "solarized-pro"
+name = "Solarized Pro"
+version = "0.1.0"
+schema_version = 1
+authors = ["NobleGase <qq1361037447@gmail.com"]
+description = "A dark solarized theme for Zed."
+repository = "https://github.com/noble-gase/solarized-pro"
