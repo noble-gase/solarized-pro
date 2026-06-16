@@ -301,6 +301,9 @@
                 "punctuation.definition.comment.shebang.shell",
                 // go
                 "constant.language.null.go",
+                // js
+                "constant.language.null.js",
+                "constant.language.undefined.js"
             ],
             "settings": {
                 "foreground": "#d33682",
