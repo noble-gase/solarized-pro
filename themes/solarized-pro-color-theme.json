@@ -299,6 +299,8 @@
                 "source.sass keyword.control.untitled",
                 "meta.shebang.shell",
                 "punctuation.definition.comment.shebang.shell",
+                // go
+                "constant.language.null.go",
             ],
             "settings": {
                 "foreground": "#d33682",
@@ -372,10 +374,11 @@
                 "keyword.const.go",
                 "keyword.struct.go",
                 "keyword.channel.go",
+                "keyword.control.go",
+                "keyword.control.import.go",
                 "keyword.package.go",
                 "keyword.function.go",
                 "keyword.interface.go",
-                "keyword.control.import.go",
                 "entity.name.type.any.go",
                 "constant.other.placeholder.go",
                 // rust

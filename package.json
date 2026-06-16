@@ -2,7 +2,7 @@
 	"name": "solarized-pro",
 	"displayName": "Solarized Pro",
 	"description": "A dark solarized theme for VSCode.",
-	"version": "1.0.19",
+	"version": "1.0.20",
 	"publisher": "IIInsomnia",
 	"license": "MIT",
 	"engines": {
