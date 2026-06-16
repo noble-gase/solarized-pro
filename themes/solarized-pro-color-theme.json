@@ -174,7 +174,6 @@
             "scope": [
                 "variable",
                 "variable.parameter",
-                "variable.legacy.builtin.python",
                 "variable.other",
                 "variable.other.property",
                 "entity.name.namespace",
@@ -184,8 +183,15 @@
                 "source.groovy.embedded",
                 "string meta.image.inline.markdown",
                 "punctuation.definition.string",
-                "support.class.php",
                 "support.type.property-name.css",
+                // c
+                "string.quoted.other.lt-gt.include.c",
+                // c++
+                "entity.name.scope-resolution.cpp",
+                "entity.name.scope-resolution.parameter.cpp",
+                "entity.name.scope-resolution.namespace.using.cpp",
+                "entity.name.scope-resolution.template.definition.cpp",
+                "string.quoted.other.lt-gt.include.cpp",
                 // js
                 "variable.other.readwrite.js",
                 "variable.other.object.js",
@@ -194,6 +200,13 @@
                 "keyword.operator.key-value.rust",
                 "keyword.operator.access.dot.rust",
                 "keyword.operator.namespace.rust",
+                // python
+                "variable.legacy.builtin.python",
+                // php
+                "support.class.php",
+                // SQL
+                "constant.other.table-name.sql",
+                "constant.other.database-name.sql",
                 // ini
                 "keyword.other.definition.ini",
                 // toml
@@ -260,6 +273,9 @@
                 "meta.preprocessor.c.include",
                 "punctuation.definition.string.begin.c",
                 "punctuation.definition.string.end.c",
+                // c++
+                "punctuation.definition.string.begin.cpp",
+                "punctuation.definition.string.end.cpp",
             ],
             "settings": {
                 "foreground": "#2aa198",
@@ -348,7 +364,6 @@
                 "storage",
                 "storage.type",
                 "storage.modifier",
-                "storage.modifier.c++",
                 "string.other.math.tex",
                 "support",
                 "support.function",
@@ -357,6 +372,10 @@
                 "support.function.be.latex",
                 "entity.name.command.shell",
                 "punctuation.definition.variable",
+                // c
+                "constant.other.placeholder.c",
+                // c++
+                "storage.modifier.c++",
                 // js
                 "keyword.control.from.js",
                 "keyword.control.export.js",
@@ -405,6 +424,9 @@
                 "keyword.default.zig",
                 "keyword.type.zig",
                 "keyword.type.integer.zig",
+                // SQL
+                "keyword.other.sql",
+                "keyword.other.DML.sql",
                 // ini
                 "source.ini",
                 // toml
@@ -421,29 +443,35 @@
                 "variable.function",
                 "entity.name.class",
                 "entity.name.type",
-                "entity.name.type.zig",
                 "entity.name.scope-resolution",
                 "entity.other.attribute-name.id",
                 "entity.other.attribute-name.class",
                 "string.other.math.tex",
                 "markup.heading",
                 "markup.changed.git_gutter",
+                "meta.encoding",
                 "meta.preprocessor",
                 "meta.group.braces.tex",
                 "meta.tag.xml entity.other.attribute-name",
-                "meta.array support.function.construct.php",
                 "text.html.basic entity.other.attribute-name.html",
                 "support.constant.color",
                 "support.function.be.latex",
-                "support.function.magic.php",
-                "support.function.builtin.zig",
                 "punctuation.definition.heading.markdown",
                 "invalid.deprecated.color.w3c-non-standard-color-name.scss",
                 // c
+                "keyword.other.typedef.c",
                 "keyword.control.directive.define.c",
                 "keyword.control.directive.include.c",
                 "support.type.posix-reserved.c",
                 "meta.preprocessor.macro.c",
+                // c++
+                "meta.encoding.cpp",
+                "entity.name.namespace.cpp",
+                "keyword.control.directive.include.cpp",
+                "keyword.control.directive.define.cpp",
+                // zig
+                "entity.name.type.zig",
+                "support.function.builtin.zig",
                 // js
                 "keyword.operator.new.js",
                 "keyword.operator.delete.js",
@@ -455,11 +483,17 @@
                 "keyword.operator.expression.void.js",
                 "keyword.operator.expression.delete.js",
                 "keyword.operator.relational.js",
+                // php
+                "keyword.other.type.php",
+                "support.function.magic.php",
+                "meta.array support.function.construct.php",
                 // python
                 "support.type.exception.python",
                 "support.variable.magic.python",
                 "support.function.magic.python",
                 "support.function.builtin.python",
+                // SQL
+                "keyword.other.create.sql",
             ],
             "settings": {
                 "foreground": "#b58900",
